@@ -1,7 +1,9 @@
+import {MainPanelComponent} from "./features/main-panel/ui";
+
 function App() {
 
   return (
-      <h1> Hola mundo </h1>
+      <MainPanelComponent />
   )
 }
 
