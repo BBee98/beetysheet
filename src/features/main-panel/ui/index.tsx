@@ -11,6 +11,6 @@ export const MainPanelComponent = () => {
     });
 
   return <section className={wrapper}>
-      <BeetySheetButton> Add slide </BeetySheetButton>
+      <BeetySheetButton theme='pink-theme'> Add slide </BeetySheetButton>
   </section>;
 };

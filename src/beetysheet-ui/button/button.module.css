@@ -1,58 +1,44 @@
+@import '../global.module.css';
+@import './themes/pink-theme.module.css';
 
-.beetysheetButton {
-    align-items: center;
-    background-color: #fee6e3;
-    border: 2px solid #111;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: #111;
+:root {
+    --background-color: #ffff;
+    --text-color: #000;
+
+    --font-family: var(--body-font-family);
+    --line-height: var(--body-line-height);
+    --font-size: var(--body-font-size);
+
+    --border-color: #000;
+    --border-width: calc(var(--8px) / 4);
+    --border-style: solid;
+    --border-radius: var(--8px);
+
+    --height: var(--48px);
+
+    --position: static;
+
+    --padding: var(--spc24);
+}
+
+.button {
+    background: var(--background-color);
+    color: var(--text-color);
+
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    font-size: var(--font-size);
+
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+    border-color: var(--border-color);
+    border-radius: var(--border-radius);
+
+    height: var(--height);
+
+    position: var(--position);
+
     cursor: pointer;
-    display: flex;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    height: 48px;
-    justify-content: center;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
 
-.beetysheetButton:after {
-    background-color: #111;
-    border-radius: 8px;
-    content: "";
-    display: block;
-    height: 48px;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: -2px;
-    transform: translate(8px, 8px);
-    transition: transform .2s ease-out;
-    z-index: -1;
-}
-
-.beetysheetButton:hover:after {
-    transform: translate(0, 0);
-}
-
-.beetysheetButton:active {
-    background-color: #ffdeda;
-    outline: 0;
-}
-
-.beetysheetButton:hover {
-    outline: 0;
-}
-
-@media (min-width: 768px) {
-    .beetysheetButton {
-        padding: 0 40px;
-    }
+    padding: var(--padding);
 }
