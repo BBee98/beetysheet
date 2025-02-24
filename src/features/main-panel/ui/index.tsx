@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import cx from 'classnames';
-import {BeetySheetButton} from "../../../beetysheet-ui/button/button.component.tsx";
+import {ButtonComponent} from "../../../components-ui/button/button.component.tsx";
 
 export const MainPanelComponent = () => {
 
@@ -11,6 +11,6 @@ export const MainPanelComponent = () => {
     });
 
   return <section className={wrapper}>
-      <BeetySheetButton theme='pink-theme'> Add slide </BeetySheetButton>
+      <ButtonComponent  theme='pink-theme'> Add slide </ButtonComponent>
   </section>;
 };

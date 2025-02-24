@@ -9,10 +9,10 @@
 
 .pink-theme:after {
     background-color: #111;
-    border-radius: var(--8px);
+    border-radius: var(--sz8px);
     content: "";
     display: block;
-    height: var(--48px);
+    height: var(--sz48px);
     left: 0;
     width: 100%;
     position: absolute;

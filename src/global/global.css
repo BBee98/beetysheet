@@ -20,12 +20,12 @@
 
     /** [ -- SIZES -- ] **/
 
-    --8px: 0.5.rem;
-    --16px: 1rem;
-    --24px: 1.5rem;
-    --32px: 2rem;
-    --48px: 3rem;
-    --64px: 4rem;
+    --sz8px: 0.5rem;
+    --sz16px: 1rem;
+    --sz24px: 1.5rem;
+    --sz32px: 2rem;
+    --sz48px: 3rem;
+    --sz64px: 4rem;
 }
 
 .h-screen {

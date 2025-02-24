@@ -3,7 +3,7 @@ import styles from './button.module.css';
 import cx from 'classnames';
 import {Themes} from "../themes.ts";
 
-export const BeetySheetButton = ({ theme, children }: { theme: Themes, children: ReactNode }) => {
+export const ButtonComponent = ({ theme, children }: { theme: Themes, children: ReactNode }) => {
 
     const buttonCSS = cx({
         [styles.button]: true,

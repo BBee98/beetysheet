@@ -1,4 +1,4 @@
-@import '../global.module.css';
+@import '../../global/global.css';
 @import './themes/pink-theme.module.css';
 
 :root {
@@ -10,11 +10,11 @@
     --font-size: var(--body-font-size);
 
     --border-color: #000;
-    --border-width: calc(var(--8px) / 4);
+    --border-width: calc(var(--sz8px) / 4);
     --border-style: solid;
-    --border-radius: var(--8px);
+    --border-radius: var(--sz8px);
 
-    --height: var(--48px);
+    --height: var(--sz48px);
 
     --position: static;
 
