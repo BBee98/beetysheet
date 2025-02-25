@@ -1,16 +1,11 @@
-import styles from './styles.module.css';
-import cx from 'classnames';
 import {ButtonComponent} from "../../../components-ui/button/button.component.tsx";
+import {SectionComponent} from "../../../components-ui/section/section.component.tsx";
 
 export const MainPanelComponent = () => {
 
-    const wrapper = cx({
-        [styles.wrapper]: true,
-        ["flex"]: true,
-        ["h-screen"]: true,
-    });
-
-  return <section className={wrapper}>
+  return <SectionComponent cssProps={{
+      hasFlex: true
+  }}>
       <ButtonComponent  theme='pink-theme'> Add slide </ButtonComponent>
-  </section>;
+  </SectionComponent>;
 };

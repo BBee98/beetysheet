@@ -1,5 +1,5 @@
 @import '../../global/global.css';
-@import './themes/pink-theme.module.css';
+@import '../themes/pink-theme.module.css';
 
 :root {
     --background-color: #ffff;
