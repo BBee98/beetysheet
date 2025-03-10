@@ -1,4 +1,4 @@
-import {ButtonComponent} from "../../../components-ui/button/button.component.tsx";
+import {Link} from "../../../components-ui/button/button.component.tsx";
 import {SectionComponent} from "../../../components-ui/section/section.component.tsx";
 
 export const MainPanelComponent = () => {
@@ -6,6 +6,6 @@ export const MainPanelComponent = () => {
   return <SectionComponent cssProps={{
       hasFlex: true
   }}>
-      <ButtonComponent  theme='pink-theme'> Add slide </ButtonComponent>
+      <Link theme='pink-theme' linkProps={{ type: 'link', href: 'create-slide'}}> Add slide </Link>
   </SectionComponent>;
 };

@@ -7,7 +7,7 @@ export const AppRoutes = () => {
     return (
         <Routes>
             <Route index path="/" element={<App />} />
-            <Route path="/create-slide" element={<CreateSlideComponent />} />
+            <Route path="create-slide" element={<CreateSlideComponent />} />
         </Routes>
     )
 }
