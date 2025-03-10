@@ -1,5 +1,4 @@
 import cx from "classnames";
-import styles from './section.module.css';
 import {ReactNode} from "react";
 
 export type SectionComponent = {
