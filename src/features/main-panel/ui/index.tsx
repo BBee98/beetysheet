@@ -4,7 +4,9 @@ import {SectionComponent} from "../../../components-ui/section/section.component
 export const MainPanelComponent = () => {
 
   return <SectionComponent cssProps={{
-      hasFlex: true
+      hasFlex: {
+          flexDirection: "row"
+      }
   }}>
       <Link theme='pink-theme' linkProps={{ type: 'link', href: 'create-slide'}}> Add slide </Link>
   </SectionComponent>;

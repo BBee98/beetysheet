@@ -18,7 +18,12 @@ export const CreateSlideComponent = () => {
         <SidenavComponent>
             { options.map( option => <button> { option }</button>)}
         </SidenavComponent>
-        <h1> Create your slide </h1>
+        <article style={{
+            position: "relative",
+            marginLeft: "150px",
+        }}>
+            <h1> Create slide </h1>
+        </article>
 
     </SectionComponent>
 }

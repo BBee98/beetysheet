@@ -1,0 +1,6 @@
+.sidenav {
+    left: 0;
+    top: 0;
+    padding: var(--spc32);
+    background: rgb(37, 40, 61);
+}
