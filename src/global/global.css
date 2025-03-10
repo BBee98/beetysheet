@@ -40,6 +40,8 @@
     max-width: 100%;
 }
 
+/** FLEX **/
+
 .flex {
     display: flex;
 
@@ -60,3 +62,9 @@
     }
 }
 
+/** PADDING **/
+
+.padding {
+    --padding-value: var(--spc12);
+    padding: var(--padding-value);
+}

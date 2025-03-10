@@ -10,6 +10,9 @@ export const CreateSlideComponent = () => {
     return <SectionComponent cssProps={{
         hasFlex: {
             flexDirection: "col"
+        },
+        padding: {
+            value: "var(--spc48)"
         }
     }}>
         <SidenavComponent>
