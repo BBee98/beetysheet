@@ -42,6 +42,21 @@
 
 .flex {
     display: flex;
-    align-items: center;
-    justify-content: center;
+
+    & .itemsCenter {
+        align-items: center;
+    }
+
+    & .justifyCenter {
+        justify-content: center;
+    }
+
+    & .col {
+        flex-direction: column;
+    }
+
+    & .row {
+        flex-direction: row
+    }
 }
+
