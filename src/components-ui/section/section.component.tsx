@@ -12,7 +12,6 @@ export type SectionComponent = {
 export const SectionComponent = ({cssProps, children}: SectionComponent) => {
 
     const sectionCSS = cx({
-        [styles.section]: true,
         ["flex"]: cssProps.hasFlex,
         ["h-screen"]: true,
     });
