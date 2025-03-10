@@ -15,7 +15,7 @@ export type LinkProps = ComponentProps & {
 export const Link = ({theme, children, linkProps}: LinkProps) => {
 
     const linkCSS = cx({
-        [styles.link]: true,
+        [styles.button]: true,
         [styles[theme]]: true,
         ["flex"]: true,
         ["max-w-full"]: true,
