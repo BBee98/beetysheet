@@ -1,11 +1,8 @@
-import {Link} from "../../../components-ui/button/button.component.tsx";
-import {SectionComponent} from "../../../components-ui/section/section.component.tsx";
+import {NavLink} from "react-router-dom";
 
 export const MainPanelComponent = () => {
 
-  return <SectionComponent cssProps={{
-      hasFlex: true
-  }}>
-      <Link theme='pink-theme' linkProps={{ type: 'link', href: 'create-slide'}}> Add slide </Link>
-  </SectionComponent>;
+  return <section>
+      <NavLink to='create-slide'> Add slide </NavLink>
+  </section>;
 };
