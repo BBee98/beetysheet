@@ -1,9 +1,9 @@
-import {MainPanelComponent} from "./features/main-panel/ui";
+import {MainPanelPage} from "./pages/main-panel/ui";
 
 function App() {
 
   return (
-      <MainPanelComponent />
+      <MainPanelPage />
   )
 }
 

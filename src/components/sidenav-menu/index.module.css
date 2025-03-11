@@ -1,0 +1,30 @@
+.sidenav {
+    padding: 24px;
+    height: 100vh;
+
+    background: #3B413C;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    gap: 8px;
+
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px;
+
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgba(92, 101, 95, 0.5);
+}

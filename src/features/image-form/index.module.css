@@ -1,0 +1,10 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: gainsboro;
+
+    width: 100%;
+    min-height: 500px;
+}
