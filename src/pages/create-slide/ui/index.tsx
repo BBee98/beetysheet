@@ -1,4 +1,4 @@
-import {SidenavMenu} from "../../../components/sidenav-menu";
+import {SidenavMenu} from "@components/Sidenav/Menu";
 
 import styles from './index.module.css';
 import {ImageForm} from "../../../features/image-form";
